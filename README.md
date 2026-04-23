@@ -21,7 +21,7 @@ Este proyecto implementa una arquitectura de microservicios coordinada por un ag
    ```
 3. Librerías de IA y Frontend 
    ```
-   pip install langchain langchain-community langchain-core streamlit
+   pip install langchain langchain-community langchain-core langchain-ollama langgraph streamlit
    ```
 4. Librerías para Microservicios y Conectividad
     ```
