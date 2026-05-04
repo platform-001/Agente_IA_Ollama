@@ -5,8 +5,8 @@ app = FastAPI(title="Microservicio de Clientes")
 
 # Base de datos local 
 CUSTOMERS_DB = {
-    "123": {"nombre": "Juan Pérez", "saldo": 500},
-    "456": {"nombre": "Ana García", "saldo": 1200},
+    "123": {"nombre": "Juan Pérez", "saldo": 120},
+    "456": {"nombre": "Ana García", "saldo": 90},
     "789": {"nombre": "Carlos Ruiz", "saldo": 300}
 }
 

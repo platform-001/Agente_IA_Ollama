@@ -4,8 +4,8 @@ import uvicorn
 app = FastAPI(title="Microservicio de Tickets")
 
 TICKETS_DATA = {
-    "123": 2,
-    "456": 0,
+    "123": 8,
+    "456": 5,
     "789": 5
 }
 

@@ -4,8 +4,8 @@ import uvicorn
 app = FastAPI(title="Microservicio vulnerabilidades")
 
 VULNERABILITIES_DB = {
-    "auth-service": {"critical": 3, "high": 5, "medium": 0},
-    "payment-api": {"critical": 0, "high": 0, "medium": 2},
+    "auth-service": {"critical": 3, "high": 2, "medium": 0},
+    "payment-api": {"critical": 1, "high": 5, "medium": 2},
     "gateway": {"critical": 0, "high": 1, "medium": 0}
 }
 
